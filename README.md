@@ -10,3 +10,16 @@ Basic blog demponstrating use of rails CRUD operations
 3) Add action/method, like `#home`
 4) Add View in `views`
    1) add file as .html.erb
+
+## Naming Conventions
+* Model Name - `Article`
+  * Singular
+  * First letter UPPERCASE
+* Table Name
+  * Plural
+  * lowercase of model name
+* Model File Name - `article.rb`
+  * SINGULAR
+  * all lowercase 
+* Controller Name - `articles_conrtoller.rb`
+  * plural of model
