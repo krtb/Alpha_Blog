@@ -13,6 +13,7 @@ Basic blog demponstrating use of rails CRUD operations
 
 ## Naming Conventions
 * Model Name - `Article`
+  * Camel Cased
   * Singular
   * First letter UPPERCASE
 * Table Name
