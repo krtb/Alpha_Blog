@@ -1,6 +1,6 @@
 #NEW
 /config/local_env.yml
-
+public/packs
 
 #old rails items
 *.rbc
