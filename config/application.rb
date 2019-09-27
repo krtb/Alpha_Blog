@@ -5,7 +5,7 @@ require 'rails/all'
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
-Dotenv::Railtie.load
+Dotenv::Railtie.load #quicker initialization of dotenv gem, NOT NECESSARY BUT PRECAUTION
 
 module AlphaBlog
   class Application < Rails::Application
