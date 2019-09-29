@@ -1,0 +1,11 @@
+<h1>Create an article</h1>
+
+<!-- need to initiate instance variable, @article, do this in controller -->
+<%= form_for @article do |f| %>
+    <p>
+        <%= f.label :title %>
+        <%= f.text_field :title %>
+    </p>
+<% end %>
+
+<!-- model backed form, rails provides formfor, to deal with forms, form_helpers -->
